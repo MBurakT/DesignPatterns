@@ -1,0 +1,8 @@
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\bin\Debug\Prototype.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\bin\Debug\Prototype.pdb
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\obj\Debug\Prototype.csproj.AssemblyReference.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\obj\Debug\Prototype.csproj.SuggestedBindingRedirects.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\obj\Debug\Prototype.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Prototype\obj\Debug\Prototype.pdb
