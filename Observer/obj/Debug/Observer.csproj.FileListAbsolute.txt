@@ -1,0 +1,8 @@
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\bin\Debug\Observer.exe.config
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\bin\Debug\Observer.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\bin\Debug\Observer.pdb
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\obj\Debug\Observer.csproj.AssemblyReference.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\obj\Debug\Observer.csproj.SuggestedBindingRedirects.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\obj\Debug\Observer.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Observer\obj\Debug\Observer.pdb
