@@ -1,0 +1,8 @@
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\bin\Debug\Mediator.exe.config
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\bin\Debug\Mediator.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\bin\Debug\Mediator.pdb
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\obj\Debug\Mediator.csproj.AssemblyReference.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\obj\Debug\Mediator.csproj.SuggestedBindingRedirects.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\obj\Debug\Mediator.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\Mediator\obj\Debug\Mediator.pdb
