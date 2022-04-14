@@ -1,0 +1,8 @@
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\bin\Debug\Multition.exe.config
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\bin\Debug\Multition.exe
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\bin\Debug\Multition.pdb
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\obj\Debug\Multition.csproj.AssemblyReference.cache
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\obj\Debug\Multition.csproj.SuggestedBindingRedirects.cache
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\obj\Debug\Multition.csproj.CoreCompileInputs.cache
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\obj\Debug\Multition.exe
+C:\Users\mbtbr\OneDrive\Belgeler\VS.NET\DesignPatterns\Multition\obj\Debug\Multition.pdb
