@@ -1,0 +1,11 @@
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\bin\Debug\DependencyInjection.exe.config
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\bin\Debug\DependencyInjection.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\bin\Debug\DependencyInjection.pdb
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\obj\Debug\DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\obj\Debug\DependencyInjection.csproj.SuggestedBindingRedirects.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\obj\Debug\DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\obj\Debug\DependencyInjection.exe
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\obj\Debug\DependencyInjection.pdb
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\bin\Debug\Ninject.dll
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\bin\Debug\Ninject.xml
+C:\Users\MuhammetBurakTurhan\Desktop\CSharp\DesignPatterns\DependencyInjection\obj\Debug\DependencyInjection.csproj.CopyComplete

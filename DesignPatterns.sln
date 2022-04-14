@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{2BEDCCD3-B366-44A0-9FC5-9A27FDCE4C3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{2BEDCCD3-B366-44A0-9FC5-9A27FDCE4C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BEDCCD3-B366-44A0-9FC5-9A27FDCE4C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BEDCCD3-B366-44A0-9FC5-9A27FDCE4C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
