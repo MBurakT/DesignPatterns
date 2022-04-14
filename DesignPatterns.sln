@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{D2F8731D-57E7-41C6-B4D5-26973954C566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{AE694A1E-10E5-48CE-A8FD-C47E57336DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D2F8731D-57E7-41C6-B4D5-26973954C566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2F8731D-57E7-41C6-B4D5-26973954C566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2F8731D-57E7-41C6-B4D5-26973954C566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE694A1E-10E5-48CE-A8FD-C47E57336DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE694A1E-10E5-48CE-A8FD-C47E57336DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE694A1E-10E5-48CE-A8FD-C47E57336DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE694A1E-10E5-48CE-A8FD-C47E57336DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
