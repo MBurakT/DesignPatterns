@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "NullObject\NullObject.csproj", "{50FF0AD3-A0B4-42F6-8F0F-1B79449544DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multition", "Multition\Multition.csproj", "{54F12A3B-43C3-4210-9E00-D6EFDCC5B9B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7279E983-C5F2-4F5D-993D-FAE51C57A4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FF0AD3-A0B4-42F6-8F0F-1B79449544DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FF0AD3-A0B4-42F6-8F0F-1B79449544DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FF0AD3-A0B4-42F6-8F0F-1B79449544DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FF0AD3-A0B4-42F6-8F0F-1B79449544DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F12A3B-43C3-4210-9E00-D6EFDCC5B9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F12A3B-43C3-4210-9E00-D6EFDCC5B9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F12A3B-43C3-4210-9E00-D6EFDCC5B9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F12A3B-43C3-4210-9E00-D6EFDCC5B9B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
