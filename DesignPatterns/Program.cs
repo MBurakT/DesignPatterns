@@ -1,4 +1,5 @@
-﻿using System;
+﻿// dotnet run --project DesignPatterns/DesignPatterns.csproj
+using System;
 
 namespace DesignPatterns;
 
