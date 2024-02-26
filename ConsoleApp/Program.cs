@@ -1,8 +1,8 @@
-﻿// dotnet run --project DesignPatterns/DesignPatterns.csproj
+﻿// dotnet run --project ConsoleApp/ConsoleApp.csproj
 using System;
 using Classes;
 
-namespace DesignPatterns;
+namespace ConsoleApp;
 
 class Program
 {
