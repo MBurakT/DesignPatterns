@@ -8,9 +8,13 @@ class Program
 {
     static void Run(string[] args)
     {
-        TextBox textBox = new();
+        DrawUIControl(new TextBox());
+        DrawUIControl(new CheckBox());
+    }
 
-        textBox.Enable();
+    static void DrawUIControl(UIControl control)
+    {
+        control.Draw();
     }
 
     static void Main(string[] args)
