@@ -9,12 +9,9 @@ class Program
 {
     static void Run(string[] args)
     {
-        Account account = new();
+        MailService mailService = new();
 
-        account.Deposit(10);
-        account.Withdraw(5);
-
-        Console.WriteLine($"Balance: {account.GetBalance().ToString("f2")}");
+        mailService.SendEmail();
     }
 
     static ITaxCalculator GetCalculator()
