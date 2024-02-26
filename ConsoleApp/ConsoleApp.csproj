@@ -2,6 +2,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Classes\Classes.csproj" />
+    <ProjectReference Include="..\DesignPatterns\BehaviorDesignPatterns\BehaviorDesignPatterns.csproj" />
+    <ProjectReference Include="..\DesignPatterns\StructuralDesignPatterns\StructuralDesignPatterns.csproj" />
+    <ProjectReference Include="..\DesignPatterns\CreationalDesignPatterns\CreationalDesignPatterns.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

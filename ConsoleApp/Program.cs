@@ -1,6 +1,5 @@
 ﻿// dotnet run --project ConsoleApp/ConsoleApp.csproj
 using System;
-using Classes;
 
 namespace ConsoleApp;
 
@@ -8,13 +7,7 @@ class Program
 {
     static void Run(string[] args)
     {
-        DrawUIControl(new TextBox());
-        DrawUIControl(new CheckBox());
-    }
-
-    static void DrawUIControl(UIControl control)
-    {
-        control.Draw();
+        Console.WriteLine("Design Patterns");
     }
 
     static void Main(string[] args)
