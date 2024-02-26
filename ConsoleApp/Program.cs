@@ -1,6 +1,7 @@
 ﻿// dotnet run --project ConsoleApp/ConsoleApp.csproj
 using System;
 using Classes;
+using Interfaces;
 
 namespace ConsoleApp;
 
@@ -8,8 +9,14 @@ class Program
 {
     static void Run(string[] args)
     {
-        User user = new("Denem");
-        user.SayHello();
+        ITaxCalculator taxCalculator = GetCalculator();
+
+        taxCalculator.CalculateTax();
+    }
+
+    static ITaxCalculator GetCalculator()
+    {
+        return new TaxCalculator2024();
     }
 
     static void Main(string[] args)
