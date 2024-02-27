@@ -2,8 +2,9 @@
 using System;
 using DesignPatterns.CreationalDesignPatterns.Singleton.NoThreadSafeSingleton;
 using DesignPatterns.CreationalDesignPatterns.Singleton.ThreadSafeSingleton;
-using DesignPatterns.CreationalDesignPatterns.Singleton.FactoryMethod;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
+using DesignPatterns.CreationalDesignPatterns.FactoryMethod;
+using DesignPatterns.CreationalDesignPatterns.AbstractFactory;
 
 namespace ConsoleApp;
 
@@ -20,7 +21,9 @@ class Program
         // Console.WriteLine("\nSingleton (Thread-Safe)");
         // ThreadSafeSingletonProgram.Main(args);
 
-        FactoryMethodProgram.Main(args);
+        // FactoryMethodProgram.Main(args);
+
+        AbstractFactoryProgram.Main(args);
 
         // Console.WriteLine("Memento");
         // MementoProgram.Main(args);

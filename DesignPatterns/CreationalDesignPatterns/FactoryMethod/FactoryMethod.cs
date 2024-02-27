@@ -1,6 +1,6 @@
 using System;
 
-namespace DesignPatterns.CreationalDesignPatterns.Singleton.FactoryMethod;
+namespace DesignPatterns.CreationalDesignPatterns.FactoryMethod;
 
 public class FactoryMethodProgram
 {
