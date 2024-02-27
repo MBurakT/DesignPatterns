@@ -2,9 +2,10 @@
 using System;
 using DesignPatterns.CreationalDesignPatterns.Singleton.NoThreadSafeSingleton;
 using DesignPatterns.CreationalDesignPatterns.Singleton.ThreadSafeSingleton;
-using DesignPatterns.BehaviorDesignPatterns.Memento;
 using DesignPatterns.CreationalDesignPatterns.FactoryMethod;
 using DesignPatterns.CreationalDesignPatterns.AbstractFactory;
+using DesignPatterns.CreationalDesignPatterns.Prototype;
+using DesignPatterns.BehaviorDesignPatterns.Memento;
 
 namespace ConsoleApp;
 
@@ -23,7 +24,9 @@ class Program
 
         // FactoryMethodProgram.Main(args);
 
-        AbstractFactoryProgram.Main(args);
+        // AbstractFactoryProgram.Main(args);
+
+        PrototypeProgram.Main(args);
 
         // Console.WriteLine("Memento");
         // MementoProgram.Main(args);
