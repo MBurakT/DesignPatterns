@@ -6,6 +6,7 @@ using DesignPatterns.CreationalDesignPatterns.FactoryMethod;
 using DesignPatterns.CreationalDesignPatterns.AbstractFactory;
 using DesignPatterns.CreationalDesignPatterns.Prototype;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
+using DesignPatterns.CreationalDesignPatterns.Builder;
 
 namespace ConsoleApp;
 
@@ -26,7 +27,9 @@ class Program
 
         // AbstractFactoryProgram.Main(args);
 
-        PrototypeProgram.Main(args);
+        // PrototypeProgram.Main(args);
+        
+        BuilderProgram.Main(args);
 
         // Console.WriteLine("Memento");
         // MementoProgram.Main(args);
