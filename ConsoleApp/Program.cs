@@ -1,5 +1,6 @@
 ﻿// dotnet run --project ConsoleApp/ConsoleApp.csproj
 using System;
+using DesignPatterns.BehaviorDesignPatterns.Memento;
 
 namespace ConsoleApp;
 
@@ -8,6 +9,8 @@ class Program
     static void Run(string[] args)
     {
         Console.WriteLine("Design Patterns");
+
+        MementoProgram.Main(args);
     }
 
     static void Main(string[] args)
