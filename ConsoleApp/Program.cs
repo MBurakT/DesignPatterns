@@ -1,5 +1,7 @@
 ﻿// dotnet run --project ConsoleApp/ConsoleApp.csproj
 using System;
+using DesignPatterns.CreationalDesignPatterns.Singleton.NoThreadSafeSingleton;
+using DesignPatterns.CreationalDesignPatterns.Singleton.ThreadSafeSingleton;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
 
 namespace ConsoleApp;
@@ -8,9 +10,17 @@ class Program
 {
     static void Run(string[] args)
     {
-        Console.WriteLine("Design Patterns");
+        Console.WriteLine("Design Patterns\n");
 
-        MementoProgram.Main(args);
+        Console.WriteLine("Creational Design Patterns\n");
+
+        Console.WriteLine("Singleton (No Thread-Safe)");
+        NoThreadSafeSingletonProgram.Main(args);
+        Console.WriteLine("\nSingleton (Thread-Safe)");
+        ThreadSafeSingletonProgram.Main(args);
+
+        // Console.WriteLine("Memento");
+        // MementoProgram.Main(args);
     }
 
     static void Main(string[] args)
