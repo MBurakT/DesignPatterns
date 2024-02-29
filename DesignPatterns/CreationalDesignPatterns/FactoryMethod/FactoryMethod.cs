@@ -4,7 +4,7 @@ namespace DesignPatterns.CreationalDesignPatterns.FactoryMethod;
 
 public class FactoryMethodProgram
 {
-    public static void Main(string[] args)
+    public static void Client(string[] args)
     {
         ICreditCard creditCard = new PlatinumFactory().CreateProduct();
 

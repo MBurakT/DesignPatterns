@@ -4,7 +4,7 @@ namespace DesignPatterns.CreationalDesignPatterns.Builder;
 
 public class BuilderProgram
 {
-    public static void Main(string[] args)
+    public static void Client(string[] args)
     {
         PdfReportBuilder pdfReportBuilder = new();
         ReportDirector reportDirector = new();

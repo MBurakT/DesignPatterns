@@ -4,7 +4,7 @@ namespace DesignPatterns.CreationalDesignPatterns.Prototype;
 
 public class PrototypeProgram
 {
-    public static void Main(string[] args)
+    public static void Client(string[] args)
     {
         Employee perEmp = new PermanentEmployee()
         {

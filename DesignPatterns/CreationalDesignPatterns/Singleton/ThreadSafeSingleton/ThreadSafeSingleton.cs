@@ -5,7 +5,7 @@ namespace DesignPatterns.CreationalDesignPatterns.Singleton.ThreadSafeSingleton;
 
 public class ThreadSafeSingletonProgram
 {
-    public static void Main(string[] args)
+    public static void Client(string[] args)
     {
         Parallel.Invoke(
             () => PrintTeacherDetails(),

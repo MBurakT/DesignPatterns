@@ -4,7 +4,7 @@ namespace DesignPatterns.CreationalDesignPatterns.Singleton.NoThreadSafeSingleto
 
 public class NoThreadSafeSingletonProgram
 {
-    public static void Main(string[] args)
+    public static void Client(string[] args)
     {
         Singleton one = Singleton.GetInstance();
         one.PrintDetails("One");

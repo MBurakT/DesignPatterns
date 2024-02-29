@@ -6,7 +6,7 @@ namespace DesignPatterns.BehaviorDesignPatterns.Memento;
 
 public class MementoProgram
 {
-    public static void Main(string[] args)
+    public static void Client(string[] args)
     {
         Article article = new();
         ArticleHistory history = new();
