@@ -13,6 +13,7 @@ using DesignPatterns.StructuralDesignPatterns.Decorator;
 using DesignPatterns.StructuralDesignPatterns.Bridge;
 using DesignPatterns.StructuralDesignPatterns.Composite;
 using DesignPatterns.StructuralDesignPatterns.Proxy;
+using DesignPatterns.StructuralDesignPatterns.Flyweight;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
 
 namespace ConsoleApp;
@@ -50,8 +51,10 @@ class Program
         // BridgeProgram.Client(args);
         // Console.WriteLine("\nComposite Design Pattern");
         // CompositeProgram.Client(args);
-        Console.WriteLine("\nProxy Design Pattern");
-        ProxyProgram.Client(args);
+        // Console.WriteLine("\nProxy Design Pattern");
+        // ProxyProgram.Client(args);
+        Console.WriteLine("\nFlyweight Design Pattern");
+        FlyweightProgram.Client(args);
 
         // Console.WriteLine("Memento Design Pattern");
         // MementoProgram.Client(args);
