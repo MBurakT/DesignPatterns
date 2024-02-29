@@ -8,11 +8,12 @@ using DesignPatterns.CreationalDesignPatterns.Prototype;
 using DesignPatterns.CreationalDesignPatterns.Builder;
 using DesignPatterns.StructuralDesignPatterns.Adapter.ObjectAdapter;
 using DesignPatterns.StructuralDesignPatterns.Adapter.ClassAdapter;
-using DesignPatterns.BehaviorDesignPatterns.Memento;
 using DesignPatterns.StructuralDesignPatterns.Facade;
 using DesignPatterns.StructuralDesignPatterns.Decorator;
 using DesignPatterns.StructuralDesignPatterns.Bridge;
 using DesignPatterns.StructuralDesignPatterns.Composite;
+using DesignPatterns.StructuralDesignPatterns.Proxy;
+using DesignPatterns.BehaviorDesignPatterns.Memento;
 
 namespace ConsoleApp;
 
@@ -47,8 +48,10 @@ class Program
         // DecoratorProgram.Client(args);
         // Console.WriteLine("\nBridge Design Pattern");
         // BridgeProgram.Client(args);
-        Console.WriteLine("\nComposite Design Pattern");
-        CompositeProgram.Client(args);
+        // Console.WriteLine("\nComposite Design Pattern");
+        // CompositeProgram.Client(args);
+        Console.WriteLine("\nProxy Design Pattern");
+        ProxyProgram.Client(args);
 
         // Console.WriteLine("Memento Design Pattern");
         // MementoProgram.Client(args);
