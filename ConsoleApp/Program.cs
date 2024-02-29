@@ -9,6 +9,7 @@ using DesignPatterns.CreationalDesignPatterns.Builder;
 using DesignPatterns.StructuralDesignPatterns.Adapter.ObjectAdapter;
 using DesignPatterns.StructuralDesignPatterns.Adapter.ClassAdapter;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
+using DesignPatterns.StructuralDesignPatterns.Facade;
 
 namespace ConsoleApp;
 
@@ -19,26 +20,28 @@ class Program
         Console.WriteLine("Design Patterns");
 
         // Console.WriteLine("Creational Design Patterns");
-        // Console.WriteLine("Singleton (No Thread-Safe)");
+        // Console.WriteLine("Singleton (No Thread-Safe) Design Pattern");
         // NoThreadSafeSingletonProgram.Client(args);
-        // Console.WriteLine("\nSingleton (Thread-Safe)");
+        // Console.WriteLine("\nSingleton (Thread-Safe) Design Pattern");
         // ThreadSafeSingletonProgram.Client(args);
-        // Console.WriteLine("\nFactory Method");
+        // Console.WriteLine("\nFactory Method Design Pattern"); Design Pattern
         // FactoryMethodProgram.Client(args);
-        // Console.WriteLine("\nAbstract Factory");
+        // Console.WriteLine("\nAbstract Factory Design Pattern");
         // AbstractFactoryProgram.Client(args);
-        // Console.WriteLine("\nPrototype");
+        // Console.WriteLine("\nPrototype Design Pattern");
         // PrototypeProgram.Client(args);
-        // Console.WriteLine("\nBuilder");
+        // Console.WriteLine("\nBuilder Design Pattern");
         // BuilderProgram.Client(args);
 
         Console.WriteLine("Structural Design Patterns");
-        Console.WriteLine("Object Adapter");
-        ObjectAdapterProgram.Client(args);
-        Console.WriteLine("\nClass Adapter");
-        ClassAdapterProgram.Client(args);
+        // Console.WriteLine("Object Adapter Design Pattern");
+        // ObjectAdapterProgram.Client(args);
+        // Console.WriteLine("\nClass Adapter Design Pattern");
+        // ClassAdapterProgram.Client(args);
+        Console.WriteLine("\nFacade Design Pattern");
+        FacadeProgram.Client(args);
 
-        // Console.WriteLine("Memento");
+        // Console.WriteLine("Memento Design Pattern");
         // MementoProgram.Client(args);
     }
 
