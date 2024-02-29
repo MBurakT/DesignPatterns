@@ -10,6 +10,7 @@ using DesignPatterns.StructuralDesignPatterns.Adapter.ObjectAdapter;
 using DesignPatterns.StructuralDesignPatterns.Adapter.ClassAdapter;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
 using DesignPatterns.StructuralDesignPatterns.Facade;
+using DesignPatterns.StructuralDesignPatterns.Decorator;
 
 namespace ConsoleApp;
 
@@ -38,8 +39,10 @@ class Program
         // ObjectAdapterProgram.Client(args);
         // Console.WriteLine("\nClass Adapter Design Pattern");
         // ClassAdapterProgram.Client(args);
-        Console.WriteLine("\nFacade Design Pattern");
-        FacadeProgram.Client(args);
+        // Console.WriteLine("\nFacade Design Pattern");
+        // FacadeProgram.Client(args);
+        Console.WriteLine("\nDecorator Design Pattern");
+        DecoratorProgram.Client(args);
 
         // Console.WriteLine("Memento Design Pattern");
         // MementoProgram.Client(args);
