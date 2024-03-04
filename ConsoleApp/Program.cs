@@ -17,6 +17,7 @@ using DesignPatterns.StructuralDesignPatterns.Flyweight;
 using DesignPatterns.StructuralDesignPatterns.Iterator;
 using DesignPatterns.StructuralDesignPatterns.Observer;
 using DesignPatterns.StructuralDesignPatterns.ChainofResponsibility;
+using DesignPatterns.StructuralDesignPatterns.Interpreter;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
 
 namespace ConsoleApp;
@@ -64,8 +65,10 @@ class Program
         // IteratorProgram.Client(args);
         // Console.WriteLine("\nObserver Design Pattern");
         // ObserverProgram.Client(args);
-        Console.WriteLine("\nChainofResponsibility Design Pattern");
-        ChainofResponsibilityProgram.Client(args);
+        // Console.WriteLine("\nChainofResponsibility Design Pattern");
+        // ChainofResponsibilityProgram.Client(args);
+        Console.WriteLine("\nInterpreter Design Pattern");
+        InterpreterProgram.Client(args);
 
         // Console.WriteLine("\nMemento Design Pattern");
         // MementoProgram.Client(args);
