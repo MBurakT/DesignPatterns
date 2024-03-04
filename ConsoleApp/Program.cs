@@ -18,8 +18,9 @@ using DesignPatterns.StructuralDesignPatterns.Iterator;
 using DesignPatterns.StructuralDesignPatterns.Observer;
 using DesignPatterns.StructuralDesignPatterns.ChainofResponsibility;
 using DesignPatterns.StructuralDesignPatterns.Interpreter;
-using DesignPatterns.BehaviorDesignPatterns.Memento;
 using DesignPatterns.StructuralDesignPatterns.Command;
+using DesignPatterns.BehaviorDesignPatterns.Memento;
+using DesignPatterns.StructuralDesignPatterns.Mediator;
 
 namespace ConsoleApp;
 
@@ -70,11 +71,12 @@ class Program
         // ChainofResponsibilityProgram.Client(args);
         // Console.WriteLine("\nInterpreter Design Pattern");
         // InterpreterProgram.Client(args);
-        Console.WriteLine("\nCommand Design Pattern");
-        CommandProgram.Client(args);
-
+        // Console.WriteLine("\nCommand Design Pattern");
+        // CommandProgram.Client(args);
         // Console.WriteLine("\nMemento Design Pattern");
         // MementoProgram.Client(args);
+        Console.WriteLine("\nMediator Design Pattern");
+        MediatorProgram.Client(args);
     }
 
     static void Main(string[] args)
