@@ -14,7 +14,9 @@ using DesignPatterns.StructuralDesignPatterns.Bridge;
 using DesignPatterns.StructuralDesignPatterns.Composite;
 using DesignPatterns.StructuralDesignPatterns.Proxy;
 using DesignPatterns.StructuralDesignPatterns.Flyweight;
+using DesignPatterns.StructuralDesignPatterns.Iterator;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
+using DesignPatterns.StructuralDesignPatterns.Observer;
 
 namespace ConsoleApp;
 
@@ -38,7 +40,7 @@ class Program
         // Console.WriteLine("\nBuilder Design Pattern");
         // BuilderProgram.Client(args);
 
-        Console.WriteLine("Structural Design Patterns");
+        // Console.WriteLine("Structural Design Patterns");
         // Console.WriteLine("Object Adapter Design Pattern");
         // ObjectAdapterProgram.Client(args);
         // Console.WriteLine("\nClass Adapter Design Pattern");
@@ -53,10 +55,16 @@ class Program
         // CompositeProgram.Client(args);
         // Console.WriteLine("\nProxy Design Pattern");
         // ProxyProgram.Client(args);
-        Console.WriteLine("\nFlyweight Design Pattern");
-        FlyweightProgram.Client(args);
+        // Console.WriteLine("\nFlyweight Design Pattern");
+        // FlyweightProgram.Client(args);
 
-        // Console.WriteLine("Memento Design Pattern");
+        Console.WriteLine("Behavior Design Patterns");
+        // Console.WriteLine("Iterator Design Pattern");
+        // IteratorProgram.Client(args);
+        Console.WriteLine("\nObserver Design Pattern");
+        ObserverProgram.Client(args);
+
+        // Console.WriteLine("\nMemento Design Pattern");
         // MementoProgram.Client(args);
     }
 
