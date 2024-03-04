@@ -19,6 +19,7 @@ using DesignPatterns.StructuralDesignPatterns.Observer;
 using DesignPatterns.StructuralDesignPatterns.ChainofResponsibility;
 using DesignPatterns.StructuralDesignPatterns.Interpreter;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
+using DesignPatterns.StructuralDesignPatterns.Command;
 
 namespace ConsoleApp;
 
@@ -67,8 +68,10 @@ class Program
         // ObserverProgram.Client(args);
         // Console.WriteLine("\nChainofResponsibility Design Pattern");
         // ChainofResponsibilityProgram.Client(args);
-        Console.WriteLine("\nInterpreter Design Pattern");
-        InterpreterProgram.Client(args);
+        // Console.WriteLine("\nInterpreter Design Pattern");
+        // InterpreterProgram.Client(args);
+        Console.WriteLine("\nCommand Design Pattern");
+        CommandProgram.Client(args);
 
         // Console.WriteLine("\nMemento Design Pattern");
         // MementoProgram.Client(args);
