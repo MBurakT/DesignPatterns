@@ -4,7 +4,7 @@ namespace DesignPatterns.CreationalDesignPatterns.AbstractFactory;
 
 public class AbstractFactoryProgram
 {
-    public static void Cient(string[] args)
+    public static void Client(string[] args)
     {
         IVehicleFactory regularVehicleFactory = new RegularVehicleFactory();
 
