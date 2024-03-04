@@ -21,6 +21,7 @@ using DesignPatterns.StructuralDesignPatterns.Interpreter;
 using DesignPatterns.StructuralDesignPatterns.Command;
 using DesignPatterns.BehaviorDesignPatterns.Memento;
 using DesignPatterns.StructuralDesignPatterns.Mediator;
+using DesignPatterns.StructuralDesignPatterns.State;
 
 namespace ConsoleApp;
 
@@ -75,8 +76,10 @@ class Program
         // CommandProgram.Client(args);
         // Console.WriteLine("\nMemento Design Pattern");
         // MementoProgram.Client(args);
-        Console.WriteLine("\nMediator Design Pattern");
-        MediatorProgram.Client(args);
+        // Console.WriteLine("\nMediator Design Pattern");
+        // MediatorProgram.Client(args);
+        Console.WriteLine("\nState Design Pattern");
+        StateProgram.Client(args);
     }
 
     static void Main(string[] args)
