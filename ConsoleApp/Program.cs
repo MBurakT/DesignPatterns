@@ -24,6 +24,7 @@ using DesignPatterns.StructuralDesignPatterns.Mediator;
 using DesignPatterns.StructuralDesignPatterns.State;
 using DesignPatterns.StructuralDesignPatterns.TemplateMethod;
 using DesignPatterns.StructuralDesignPatterns.Strategy;
+using DesignPatterns.StructuralDesignPatterns.Visitor;
 
 namespace ConsoleApp;
 
@@ -84,8 +85,10 @@ class Program
         // StateProgram.Client(args);
         // Console.WriteLine("\nTemplateMethod Design Pattern");
         // TemplateMethodProgram.Client(args);
-        Console.WriteLine("\nStrategy Design Pattern");
-        StrategyProgram.Client(args);
+        // Console.WriteLine("\nStrategy Design Pattern");
+        // StrategyProgram.Client(args);
+        Console.WriteLine("\nVisitor Design Pattern");
+        VisitorProgram.Client(args);
     }
 
     static void Main(string[] args)
