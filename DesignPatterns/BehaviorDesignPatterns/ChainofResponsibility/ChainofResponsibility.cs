@@ -141,23 +141,23 @@ public class HundredHandler : Handler
 
 public class ATM
 {
-    TwoThousandHandler twoThousandHandler = new();
-    FiveHundredHandler fiveHundredHandler = new();
-    TwoHundredHandler twoHundredHandler = new();
-    HundredHandler hundredHandler = new();
+    TwoThousandHandler _twoThousandHandler = new();
+    FiveHundredHandler _fiveHundredHandler = new();
+    TwoHundredHandler _twoHundredHandler = new();
+    HundredHandler _hundredHandler = new();
 
     public ATM()
     {
-        twoThousandHandler.SetNextHandler(fiveHundredHandler);
-        fiveHundredHandler.SetNextHandler(twoHundredHandler);
-        twoHundredHandler.SetNextHandler(hundredHandler);
+        _twoThousandHandler.SetNextHandler(_fiveHundredHandler);
+        _fiveHundredHandler.SetNextHandler(_twoHundredHandler);
+        _twoHundredHandler.SetNextHandler(_hundredHandler);
     }
 
     public void Withdraw(long requestedAmount)
     {
         if (requestedAmount % 100 == 0)
         {
-            twoThousandHandler.DispatchNote(requestedAmount);
+            _twoThousandHandler.DispatchNote(requestedAmount);
         }
         else
         {

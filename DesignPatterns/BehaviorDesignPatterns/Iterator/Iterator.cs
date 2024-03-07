@@ -44,9 +44,9 @@ interface IAbstractCollection
 
 class ConcreteCollection : IAbstractCollection
 {
-    List<Employee> employees = new();
+    List<Employee> _employees = new();
 
-    public int Count { get { return employees.Count; } }
+    public int Count { get { return _employees.Count; } }
 
     public ConcreteIterator CreateIterator()
     {
@@ -55,12 +55,12 @@ class ConcreteCollection : IAbstractCollection
 
     public void AddEmployee(Employee employee)
     {
-        employees.Add(employee);
+        _employees.Add(employee);
     }
 
     public Employee GetEmployee(int index)
     {
-        return employees[index];
+        return _employees[index];
     }
 }
 
@@ -74,30 +74,30 @@ interface IAbstractIterator
 
 class ConcreteIterator : IAbstractIterator
 {
-    ConcreteCollection collection;
-    int current = 0;
-    readonly int step = 1;
+    ConcreteCollection _collection;
+    int _current = 0;
+    readonly int _step = 1;
 
-    public bool IsCompleted { get { return current >= collection.Count; } }
+    public bool IsCompleted { get { return _current >= _collection.Count; } }
 
     public ConcreteIterator(ConcreteCollection collection)
     {
-        this.collection = collection;
+        _collection = collection;
     }
 
     public Employee? First()
     {
-        current = 0;
-        return collection.GetEmployee(current);
+        _current = 0;
+        return _collection.GetEmployee(_current);
     }
 
     public Employee? Next()
     {
-        current += step;
+        _current += _step;
 
         if (!IsCompleted)
         {
-            return collection.GetEmployee(current);
+            return _collection.GetEmployee(_current);
         }
         else
         {
