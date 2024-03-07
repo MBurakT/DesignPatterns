@@ -59,7 +59,8 @@ public class Leaf : IComponent
 
 public class Composite : IComponent
 {
-    List<IComponent> components = new();
+    List<IComponent> _components = new();
+    
     public string Name { get; set; }
 
     public Composite(string name)
@@ -69,11 +70,11 @@ public class Composite : IComponent
 
     public void AddComponent(IComponent component)
     {
-        components.Add(component);
+        _components.Add(component);
     }
 
     public void DisplayPrice()
     {
-        components.ForEach(x => x.DisplayPrice());
+        _components.ForEach(x => x.DisplayPrice());
     }
 }

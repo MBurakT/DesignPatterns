@@ -55,10 +55,10 @@ public class EmployeeAdapter : ThirdPartyBillingSystem, ITarget
 {
     public void ProcessCompanySalary(string[,] employees)
     {
-        string? id = null;
-        string? name = null;
-        string? designation = null;
-        string? salary = null;
+        string? _id = null;
+        string? _name = null;
+        string? _designation = null;
+        string? _salary = null;
 
         List<Employee> employeeList = new();
 
@@ -68,23 +68,23 @@ public class EmployeeAdapter : ThirdPartyBillingSystem, ITarget
             {
                 if (j == 0)
                 {
-                    id = employees[i, j];
+                    _id = employees[i, j];
                 }
                 else if (j == 1)
                 {
-                    name = employees[i, j];
+                    _name = employees[i, j];
                 }
                 else if (j == 2)
                 {
-                    designation = employees[i, j];
+                    _designation = employees[i, j];
                 }
                 else
                 {
-                    salary = employees[i, j];
+                    _salary = employees[i, j];
                 }
             }
 
-            employeeList.Add(new Employee(Convert.ToInt32(id), name, designation, Convert.ToDecimal(salary)));
+            employeeList.Add(new Employee(Convert.ToInt32(_id), _name, _designation, Convert.ToDecimal(_salary)));
         }
 
         ProcessSalary(employeeList);

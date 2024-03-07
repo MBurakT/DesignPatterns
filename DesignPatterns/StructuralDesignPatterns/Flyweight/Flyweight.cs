@@ -60,9 +60,9 @@ public interface IShape // Flyweight
 
 public class Circle : IShape
 {
-    readonly int XCor;
-    readonly int YCor;
-    readonly int Radius;
+    readonly int _xCor;
+    readonly int _yCor;
+    readonly int _radius;
 
     public string? Color { get; set; }
 
@@ -73,13 +73,13 @@ public class Circle : IShape
 
     public void Draw()
     {
-        Console.WriteLine($"Circle [Color: {Color}, XCor: {XCor}, XCor: {YCor}, Radius: {Radius}]");
+        Console.WriteLine($"Circle [Color: {Color}, XCor: {_xCor}, XCor: {_yCor}, Radius: {_radius}]");
     }
 }
 
 public class ShapeFactory
 {
-    static Dictionary<string, IShape> shapeMap = new();
+    static Dictionary<string, IShape> _shapeMap = new();
 
     public static IShape GetShape(string shapeType)
     {
@@ -87,13 +87,13 @@ public class ShapeFactory
 
         if (shapeType.Equals("circle", StringComparison.InvariantCultureIgnoreCase))
         {
-            if (shapeMap.TryGetValue("circle", out shape))
+            if (_shapeMap.TryGetValue("circle", out shape))
             {
             }
             else
             {
                 shape = new Circle();
-                shapeMap.Add("circle", shape);
+                _shapeMap.Add("circle", shape);
             }
         }
 

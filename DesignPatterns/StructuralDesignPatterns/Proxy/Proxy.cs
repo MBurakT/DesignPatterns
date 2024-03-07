@@ -47,20 +47,20 @@ public class SharedFolder : ISharedFolder
 
 class SharedFolderProxy : ISharedFolder
 {
-    ISharedFolder sharedFolder;
-    Employee employee;
+    ISharedFolder _sharedFolder;
+    Employee _employee;
 
     public SharedFolderProxy(Employee employee)
     {
-        this.employee = employee;
+        _employee = employee;
     }
 
     public void PerformReadWriteOperations()
     {
-        if (employee.Role.ToUpper().Equals("CEO") || employee.Role.ToUpper().Equals("MANAGER"))
+        if (_employee.Role.ToUpper().Equals("CEO") || _employee.Role.ToUpper().Equals("MANAGER"))
         {
-            sharedFolder = new SharedFolder();
-            sharedFolder.PerformReadWriteOperations();
+            _sharedFolder = new SharedFolder();
+            _sharedFolder.PerformReadWriteOperations();
         }
         else
         {
