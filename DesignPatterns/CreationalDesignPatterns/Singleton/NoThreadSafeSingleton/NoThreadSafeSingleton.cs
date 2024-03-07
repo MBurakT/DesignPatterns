@@ -16,20 +16,20 @@ public class NoThreadSafeSingletonProgram
 
 public sealed class Singleton
 {
-    private static int Counter = 0;
-    private static Singleton? Instance = null;
+    static int _counter = 0;
+    static Singleton? _instance = null;
 
     public static Singleton GetInstance()
     {
-        if (Instance is null) Instance = new Singleton();
+        if (_instance is null) _instance = new Singleton();
 
-        return Instance;
+        return _instance;
     }
 
     private Singleton()
     {
-        Counter++;
-        Console.WriteLine($"Counter: {Counter}");
+        _counter++;
+        Console.WriteLine($"Counter: {_counter}");
     }
 
     public void PrintDetails(string message)

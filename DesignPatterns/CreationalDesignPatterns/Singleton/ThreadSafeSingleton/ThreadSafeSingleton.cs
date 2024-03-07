@@ -26,30 +26,30 @@ public class ThreadSafeSingletonProgram
 
 public sealed class Singleton
 {
-    private static int Counter = 0;
-    private static Singleton? Instance = null;
-    private static readonly object Instancelock = new object();
+    static int _counter = 0;
+    static Singleton? _instance = null;
+    static readonly object _instancelock = new object();
 
     public static Singleton GetInstance()
     {
-        if (Instance == null)
+        if (_instance == null)
         {
-            lock (Instancelock)
+            lock (_instancelock)
             {
-                if (Instance == null)
+                if (_instance == null)
                 {
-                    Instance = new Singleton();
+                    _instance = new Singleton();
                 }
             }
         }
 
-        return Instance;
+        return _instance;
     }
 
     private Singleton()
     {
-        Counter++;
-        Console.WriteLine($"Counter: {Counter}");
+        _counter++;
+        Console.WriteLine($"Counter: {_counter}");
     }
 
     public void PrintDetails(string message)
